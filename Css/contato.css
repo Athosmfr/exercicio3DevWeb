@@ -1,0 +1,49 @@
+table {
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #FFF;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+caption {
+    font-size: 30px;
+    margin: 2% 0;
+    width: max-content;
+    text-align: center;
+    color: #FFF;
+}
+
+th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+caption, th, td {
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+}
+
+table, th, td {
+    border: 2px solid #FFF;
+}
+
+.imagens {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #B0D9B1;
+    padding-bottom: 5rem;
+}
+
+.img-app {
+    width: 30%;
+    margin: 0 auto;
+    height: auto;
+}
